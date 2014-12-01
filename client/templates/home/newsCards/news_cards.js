@@ -1,0 +1,1 @@
+var postsData = [ {  title: 'Training Tips',  url: 'http://sachagreif.com/introducing-telescope/'},{  title: 'Random update',  url: 'http://meteor.com'}, {  title: 'Smackdown',  url: 'http://themeteorbook.com'}];Template.newsCards.helpers({  posts: postsData});

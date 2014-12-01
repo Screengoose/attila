@@ -2,6 +2,7 @@
 
 COLOURS
 Grey background: #F3F3F3
+Nav black: #222
 
 *//*----- GENERAL -----*/
 html {
@@ -109,5 +110,31 @@ img.bg {
   margin-top: 50px;
   background-image: url("img/wallpaper-cage.jpg");
   background-size: cover;
-  height: 300px;
+  height: 400px;
+}
+
+.personPic {
+  margin: 50px 0 0 50px;
+}
+
+.profilePic{
+  width: 300px;
+  border-style: solid;
+  border-width: 10px;
+  border-color: #222;
+}
+
+@media screen and (max-width: 500px) {
+  .profilePic{
+    width: 250px;
+    border-style: solid;
+    border-width: 10px;
+    border-color: #222;
+  }
+}
+
+.stats {
+  background: hsla(170, 5%, 95%, 0.5);
+  height: 100%;
+  color: black;
 }

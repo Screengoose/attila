@@ -1,0 +1,1 @@
+if (Posts.find().count() === 0) { Posts.insert({  title: 'Fighty fighty',  url: 'http://sachagreif.com/introducing-telescope/'});Posts.insert({  title: 'Bang bang',  url: 'http://meteor.com'});Posts.insert({  title: 'I love to fight',  url: 'http://themeteorbook.com'}); }

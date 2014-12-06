@@ -136,5 +136,61 @@ img.bg {
 .stats {
   background: hsla(170, 5%, 95%, 0.5);
   height: 100%;
+  color: #222;
+  margin-top: -5px;
+}
+
+.statText{
   color: black;
+}
+
+.statText1 {
+  padding-left: 50px;
+}
+
+.statText2 {
+  padding-left: 23px;
+}
+
+.statText3 {
+  padding-left: 33px;
+}
+
+.statText4 {
+  padding-left: 44px;
+}
+
+.statText5 {
+  padding-left: 41px;
+}
+
+.statText6 {
+  padding-left: 48px;
+}
+
+.statText7 {
+  padding-left: 62px;
+}
+
+.statText8 {
+  padding-left: 8px;
+}
+
+.statText9 {
+  padding-left: 12px;
+}
+
+.statText10 {
+  padding-left: 39px;
+}
+
+.statText11 {
+  padding-left: 8px;
+}
+
+
+/*----- EDIT PROFILE -----*/
+
+.editProfile {
+  margin-top: 100px;
 }

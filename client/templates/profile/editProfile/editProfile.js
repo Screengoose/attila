@@ -27,17 +27,17 @@ Template.editProfile.events({'submit form#edit_profile' : function(event, templa
     weightclass: weightclass_input.value
   };
 
-  // name_input.value="";
-  // nickname_input.value="";
-  // location_input.value="";
-  // weight_input.value="";
-  // height_input.value="";
-  // reach_input.value="";
-  // age_input.value="";
-  // fight_input.value="";
-  // designation_input.value="";
-  // gender_input.value="";
-  // weightclass_input.value="";
+  name_input.value="";
+  nickname_input.value="";
+  location_input.value="";
+  weight_input.value="";
+  height_input.value="";
+  reach_input.value="";
+  age_input.value="";
+  fight_input.value="";
+  designation_input.value="";
+  gender_input.value="";
+  weightclass_input.value="";
 
   Meteor.users.update({_id:Meteor.user()._id}, {$set:{"profile":data}});
 
